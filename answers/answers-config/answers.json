@@ -1,0 +1,346 @@
+{
+  "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
+  "$id": "answers",
+  "name": "Answers",
+  "supportedLocales": [],
+  "countryRestrictions": [],
+  "verticals": {
+    "ATMs": {
+      "entityTypes": [
+        "atm"
+      ],
+      "keywords": [],
+      "name": "ATMs",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "builtin.location": {
+          "nlpFilter": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "Conditions": {
+      "entityTypes": [
+        "ce_condition"
+      ],
+      "keywords": [],
+      "name": "Conditions",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "c_associatedLocations.name": {
+          "nlpFilter": true
+        },
+        "c_associatedProfessionals.name": {
+          "nlpFilter": true
+        },
+        "c_associatedSpecialty.name": {
+          "nlpFilter": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "Events": {
+      "entityTypes": [
+        "event"
+      ],
+      "keywords": [],
+      "name": "Events",
+      "searchableFields": {
+        "address": {
+          "directAnswer": true
+        },
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "name": {
+          "textSearch": true
+        },
+        "time": {
+          "directAnswer": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "FAQs": {
+      "entityTypes": [
+        "faq"
+      ],
+      "keywords": [],
+      "name": "FAQs",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "Facilities": {
+      "entityTypes": [
+        "healthcareFacility"
+      ],
+      "keywords": [],
+      "name": "Facilities",
+      "searchableFields": {
+        "address": {
+          "directAnswer": true
+        },
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "builtin.location": {
+          "nlpFilter": true
+        },
+        "c_associatedProfessionals.name": {
+          "textSearch": true
+        },
+        "c_associatedSpecialty.name": {
+          "nlpFilter": true
+        },
+        "mainPhone": {
+          "directAnswer": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "Jobs": {
+      "entityTypes": [
+        "job"
+      ],
+      "keywords": [],
+      "name": "Jobs",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "c_jobCity": {
+          "nlpFilter": true,
+          "textSearch": true
+        },
+        "c_jobState": {
+          "nlpFilter": true,
+          "textSearch": true
+        },
+        "employmentType": {
+          "textSearch": true
+        },
+        "hiringOrganization": {
+          "textSearch": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "Leadership": {
+      "entityTypes": [
+        "ce_leadership"
+      ],
+      "keywords": [],
+      "name": "Leadership",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "c_title": {
+          "textSearch": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "Locations": {
+      "entityTypes": [
+        "location"
+      ],
+      "keywords": [],
+      "name": "Locations",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "builtin.location": {
+          "nlpFilter": true,
+          "textSearch": true
+        },
+        "hours": {
+          "directAnswer": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "Menu_Items": {
+      "entityTypes": [
+        "ce_menuItem"
+      ],
+      "keywords": [],
+      "name": "Menu Items",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "c_allergens": {
+          "textSearch": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "Products": {
+      "entityTypes": [
+        "ce_product"
+      ],
+      "keywords": [],
+      "name": "Products",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "c_answersKeywords": {
+          "textSearch": true
+        },
+        "c_productCategory": {
+          "nlpFilter": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "Professionals": {
+      "entityTypes": [
+        "healthcareProfessional"
+      ],
+      "keywords": [],
+      "name": "Professionals",
+      "searchableFields": {
+        "address": {
+          "directAnswer": true
+        },
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "builtin.location": {
+          "nlpFilter": true
+        },
+        "c_associatedLocations.name": {
+          "nlpFilter": true
+        },
+        "conditionsTreated": {
+          "textSearch": true
+        },
+        "firstName": {
+          "nlpFilter": true
+        },
+        "gender": {
+          "textSearch": true
+        },
+        "insuranceAccepted": {
+          "nlpFilter": true,
+          "textSearch": true
+        },
+        "languages": {
+          "nlpFilter": true,
+          "textSearch": true
+        },
+        "lastName": {
+          "nlpFilter": true
+        },
+        "mainPhone": {
+          "directAnswer": true
+        },
+        "name": {
+          "nlpFilter": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "Services": {
+      "entityTypes": [
+        "ce_service"
+      ],
+      "keywords": [],
+      "name": "Services",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "c_answersKeywords": {
+          "textSearch": true
+        },
+        "c_associatedLocations.name": {
+          "textSearch": true
+        },
+        "c_associatedProfessionals.name": {
+          "textSearch": true
+        },
+        "c_serviceCategory": {
+          "textSearch": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "Specialties": {
+      "entityTypes": [
+        "ce_specialty"
+      ],
+      "keywords": [],
+      "name": "Specialties",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    }
+  },
+  "autocomplete": {
+    "disablePopularQueries": false,
+    "hardcodedPrompts": [
+      "What is Yext?",
+      "Services",
+      "Locations near me"
+    ]
+  },
+  "localizations": {}
+}

@@ -1,0 +1,63 @@
+{
+  "$id": "ce_menuItem",
+  "$schema": "https://schema.yext.com/config/km/custom-entity-type/v1",
+  "apiName": "ce_menuItem",
+  "enabled": true,
+  "entry": [
+    {
+      "id": "location.business_description",
+      "required": false
+    },
+    {
+      "id": "location.business_name",
+      "required": true
+    },
+    {
+      "id": "allergens",
+      "required": false
+    },
+    {
+      "id": "answersKeywords",
+      "required": false
+    },
+    {
+      "id": "calories",
+      "required": false
+    },
+    {
+      "id": "ctas",
+      "required": false
+    },
+    {
+      "id": "menuCategory",
+      "required": false
+    },
+    {
+      "id": "price",
+      "required": false
+    },
+    {
+      "id": "location.folder_location",
+      "required": false
+    },
+    {
+      "id": "location.gallery",
+      "required": false
+    },
+    {
+      "id": "location.labels",
+      "required": false
+    },
+    {
+      "id": "location.store_id",
+      "required": true
+    },
+    {
+      "id": "location.website",
+      "required": false
+    }
+  ],
+  "description": "",
+  "displayName": "Menu Item",
+  "pluralDisplayName": "Menu Items"
+}

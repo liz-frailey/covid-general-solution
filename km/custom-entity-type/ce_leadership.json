@@ -1,0 +1,47 @@
+{
+  "$id": "ce_leadership",
+  "$schema": "https://schema.yext.com/config/km/custom-entity-type/v1",
+  "apiName": "ce_leadership",
+  "enabled": true,
+  "entry": [
+    {
+      "id": "location.business_description",
+      "required": false
+    },
+    {
+      "id": "location.business_name",
+      "required": true
+    },
+    {
+      "id": "answersKeywords",
+      "required": false
+    },
+    {
+      "id": "ctas",
+      "required": false
+    },
+    {
+      "id": "title",
+      "required": false
+    },
+    {
+      "id": "location.folder_location",
+      "required": false
+    },
+    {
+      "id": "location.headshot",
+      "required": false
+    },
+    {
+      "id": "location.labels",
+      "required": false
+    },
+    {
+      "id": "location.store_id",
+      "required": true
+    }
+  ],
+  "description": "",
+  "displayName": "Leadership",
+  "pluralDisplayName": ""
+}

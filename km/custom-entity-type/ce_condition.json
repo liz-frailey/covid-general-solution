@@ -1,0 +1,59 @@
+{
+  "$id": "ce_condition",
+  "$schema": "https://schema.yext.com/config/km/custom-entity-type/v1",
+  "apiName": "ce_condition",
+  "enabled": true,
+  "entry": [
+    {
+      "id": "entity.landing_page_url",
+      "required": false
+    },
+    {
+      "id": "location.business_description",
+      "required": false
+    },
+    {
+      "id": "location.business_logo",
+      "required": false
+    },
+    {
+      "id": "location.business_name",
+      "required": true
+    },
+    {
+      "id": "answersKeywords",
+      "required": false
+    },
+    {
+      "id": "associatedLocations",
+      "required": false
+    },
+    {
+      "id": "associatedProfessionals",
+      "required": false
+    },
+    {
+      "id": "associatedSpecialty",
+      "required": false
+    },
+    {
+      "id": "ctas",
+      "required": false
+    },
+    {
+      "id": "location.folder_location",
+      "required": false
+    },
+    {
+      "id": "location.labels",
+      "required": false
+    },
+    {
+      "id": "location.store_id",
+      "required": true
+    }
+  ],
+  "description": "",
+  "displayName": "Condition",
+  "pluralDisplayName": "Conditions"
+}

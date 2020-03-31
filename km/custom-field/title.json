@@ -1,0 +1,14 @@
+{
+  "$id": "title",
+  "$schema": "https://schema.yext.com/config/km/custom-field/v1",
+  "displayName": "Title",
+  "apiName": "c_title",
+  "typeId": "type.string",
+  "type": {
+    "stringType": {
+      "stereotype": "SIMPLE"
+    }
+  },
+  "localization": "PRIMARY_ONLY",
+  "group": "NONE"
+}

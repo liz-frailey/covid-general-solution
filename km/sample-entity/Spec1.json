@@ -1,0 +1,37 @@
+{
+  "$id": "Spec1",
+  "$schema": "https://schema.yext.com/config/km/sample-entity/v1",
+  "entityType": "ce_specialty",
+  "content": {
+    "c_ctas": [
+      {
+        "icon": "chevron",
+        "text": "Learn More",
+        "url": "https://www.yext.com"
+      }
+    ],
+    "yext.description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis molestie a iaculis at erat pellentesque adipiscing commodo. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Purus faucibus ornare suspendisse sed nisi lacus. Cursus turpis massa tincidunt dui ut ornare lectus sit amet.",
+    "yext.landingPageUrl": "https://www.yext.com",
+    "yext.logo": {
+      "image": {
+        "height": 1500,
+        "sourceUrl": "http://clipart-library.com/images/zcX5B4z9i.jpg",
+        "thumbnails": [
+          {
+            "height": 150,
+            "url": "https://a.mktgcdn.com/p/duUyOVNCA3PChmeGpFERvdFSiIz0yxT7xcp64Nf0OjI/150x150.jpg",
+            "width": 150
+          },
+          {
+            "height": 94,
+            "url": "https://a.mktgcdn.com/p/duUyOVNCA3PChmeGpFERvdFSiIz0yxT7xcp64Nf0OjI/94x94.jpg",
+            "width": 94
+          }
+        ],
+        "url": "https://a.mktgcdn.com/p/duUyOVNCA3PChmeGpFERvdFSiIz0yxT7xcp64Nf0OjI/1500x1500.jpg",
+        "width": 1500
+      }
+    },
+    "yext.name": "Specialty"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$id": "Menu1",
+  "$schema": "https://schema.yext.com/config/km/sample-entity/v1",
+  "entityType": "ce_menuItem",
+  "content": {
+    "c_allergens": "Allergen",
+    "c_calories": "100",
+    "c_menuCategory": "Pizza",
+    "c_price": "$5",
+    "yext.description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis molestie a iaculis at erat pellentesque adipiscing commodo. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Purus faucibus ornare suspendisse sed nisi lacus. Cursus turpis massa tincidunt dui ut ornare lectus sit amet.",
+    "yext.name": "Menu Item",
+    "yext.photoGallery": [
+      {
+        "image": {
+          "height": 3008,
+          "sourceUrl": "https://i.pinimg.com/originals/31/88/99/3188992ea9cd9bc95289e93cbd0fd6d2.jpg",
+          "thumbnails": [
+            {
+              "height": 1900,
+              "url": "https://a.mktgcdn.com/p/C16qugi_tqFIfCdlYoBp300tqpHW3uNbDcFF_UUqaB0/1263x1900.jpg",
+              "width": 1263
+            },
+            {
+              "height": 930,
+              "url": "https://a.mktgcdn.com/p/C16qugi_tqFIfCdlYoBp300tqpHW3uNbDcFF_UUqaB0/619x930.jpg",
+              "width": 619
+            },
+            {
+              "height": 450,
+              "url": "https://a.mktgcdn.com/p/C16qugi_tqFIfCdlYoBp300tqpHW3uNbDcFF_UUqaB0/299x450.jpg",
+              "width": 299
+            },
+            {
+              "height": 294,
+              "url": "https://a.mktgcdn.com/p/C16qugi_tqFIfCdlYoBp300tqpHW3uNbDcFF_UUqaB0/196x294.jpg",
+              "width": 196
+            }
+          ],
+          "url": "https://a.mktgcdn.com/p/C16qugi_tqFIfCdlYoBp300tqpHW3uNbDcFF_UUqaB0/2000x3008.jpg",
+          "width": 2000
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "$id": "HP1",
+  "$schema": "https://schema.yext.com/config/km/sample-entity/v1",
+  "entityType": "healthcareProfessional",
+  "content": {
+    "c_answersSpecialty": "Answers",
+    "c_associatedLocations": [
+      "HF1"
+    ],
+    "yext.address": {
+      "city": "New York",
+      "countryCode": "US",
+      "line1": "1 Madison Ave",
+      "postalCode": "10010",
+      "region": "NY"
+    },
+    "yext.addressHidden": false,
+    "yext.description": "Inputting filler text to be removed.",
+    "yext.firstName": "John",
+    "yext.headshot": {
+      "height": 416,
+      "sourceUrl": "https://media.istockphoto.com/vectors/doctor-icon-or-avatar-physician-with-stethoscope-medicine-symbol-vector-id1150502263?k\u003d6\u0026m\u003d1150502263\u0026s\u003d170667a\u0026w\u003d0\u0026h\u003dkBr0f1XAQgmFTgb0KWxjfbvtQzrUvKwFLbMia9U-ww4\u003d",
+      "thumbnails": [
+        {
+          "height": 150,
+          "url": "https://a.mktgcdn.com/p/9DiirFzwTJzwRxRubcwDCU1eZ6DR1P7eLS2efRDCg6A/150x150.jpg",
+          "width": 150
+        },
+        {
+          "height": 94,
+          "url": "https://a.mktgcdn.com/p/9DiirFzwTJzwRxRubcwDCU1eZ6DR1P7eLS2efRDCg6A/94x94.jpg",
+          "width": 94
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/9DiirFzwTJzwRxRubcwDCU1eZ6DR1P7eLS2efRDCg6A/416x416.jpg",
+      "width": 416
+    },
+    "yext.lastName": "Smith",
+    "yext.mainPhone": "+17574070511",
+    "yext.name": "John Smith",
+    "yext.timezone": "America/New_York"
+  }
+}

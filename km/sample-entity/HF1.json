@@ -1,0 +1,87 @@
+{
+  "$id": "HF1",
+  "$schema": "https://schema.yext.com/config/km/sample-entity/v1",
+  "entityType": "healthcareFacility",
+  "content": {
+    "c_associatedProfessionals": [
+      "HP1"
+    ],
+    "yext.address": {
+      "city": "New York",
+      "countryCode": "US",
+      "line1": "1 Madison Ave",
+      "postalCode": "10010",
+      "region": "NY"
+    },
+    "yext.addressHidden": false,
+    "yext.description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit ut aliquam purus sit amet. Viverra nam libero justo laoreet sit amet cursus. Amet commodo nulla facilisi nullam vehicula. Semper viverra nam libero justo laoreet sit amet cursus sit. Sit amet massa vitae tortor condimentum lacinia quis. Eget egestas purus viverra accumsan in nisl nisi scelerisque.",
+    "yext.hours": {
+      "friday": {
+        "isClosed": false,
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "monday": {
+        "isClosed": false,
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "saturday": {
+        "isClosed": false,
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "sunday": {
+        "isClosed": false,
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "thursday": {
+        "isClosed": false,
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "tuesday": {
+        "isClosed": false,
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      },
+      "wednesday": {
+        "isClosed": false,
+        "openIntervals": [
+          {
+            "end": "17:00",
+            "start": "09:00"
+          }
+        ]
+      }
+    },
+    "yext.mainPhone": "+17574070511",
+    "yext.name": "Yext Primary Care",
+    "yext.timezone": "America/New_York"
+  }
+}

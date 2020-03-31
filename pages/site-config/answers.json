@@ -1,0 +1,14 @@
+{
+  "$id": "answers",
+  "$schema": "https://schema.yext.com/config/pages/site-config/v1",
+  "HostName": "${{answers_hostName}}",
+  "PinnedProductionBranchName": "refs/heads/master",
+  "PinnedStagingBranchName": "refs/heads/build",
+  "SiteName": "Answers",
+  "StagingCredentials": {
+    "Password": "test",
+    "Username": "test"
+  },
+  "TargetRepoName": "${{answers_targetRepo}}",
+  "TemplateRepo": "github.com/yext-pages/answers.domain.com.yext-cdn.com"
+}

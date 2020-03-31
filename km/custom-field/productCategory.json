@@ -1,0 +1,14 @@
+{
+  "$id": "productCategory",
+  "$schema": "https://schema.yext.com/config/km/custom-field/v1",
+  "displayName": "Product Category",
+  "apiName": "c_productCategory",
+  "typeId": "type.string",
+  "type": {
+    "stringType": {
+      "stereotype": "SIMPLE"
+    }
+  },
+  "localization": "PRIMARY_ONLY",
+  "group": "NONE"
+}

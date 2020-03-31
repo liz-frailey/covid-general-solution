@@ -1,0 +1,23 @@
+{
+  "$id": "healthcareFacility",
+  "$schema": "https://schema.yext.com/config/km/built-in-entity-type/v1",
+  "enabled": true,
+  "entry": [
+    {
+      "id": "answersKeywords",
+      "required": false
+    },
+    {
+      "id": "associatedProfessionals",
+      "required": false
+    },
+    {
+      "id": "associatedSpecialty",
+      "required": false
+    },
+    {
+      "id": "ctas",
+      "required": false
+    }
+  ]
+}

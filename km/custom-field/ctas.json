@@ -1,0 +1,15 @@
+{
+  "$id": "ctas",
+  "$schema": "https://schema.yext.com/config/km/custom-field/v1",
+  "displayName": "CTAs",
+  "apiName": "c_ctas",
+  "typeId": "type.list",
+  "type": {
+    "listType": {
+      "typeId": "cta",
+      "maxLength": 2
+    }
+  },
+  "localization": "PRIMARY_ONLY",
+  "group": "NONE"
+}

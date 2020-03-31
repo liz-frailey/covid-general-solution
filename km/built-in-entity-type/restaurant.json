@@ -1,0 +1,15 @@
+{
+  "$id": "restaurant",
+  "$schema": "https://schema.yext.com/config/km/built-in-entity-type/v1",
+  "enabled": false,
+  "entry": [
+    {
+      "id": "answersKeywords",
+      "required": false
+    },
+    {
+      "id": "ctas",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "$id": "menuCategory",
+  "$schema": "https://schema.yext.com/config/km/custom-field/v1",
+  "displayName": "Menu Category",
+  "apiName": "c_menuCategory",
+  "typeId": "type.string",
+  "type": {
+    "stringType": {
+      "stereotype": "SIMPLE"
+    }
+  },
+  "localization": "PRIMARY_ONLY",
+  "group": "NONE"
+}

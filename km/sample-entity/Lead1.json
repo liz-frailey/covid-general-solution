@@ -1,0 +1,35 @@
+{
+  "$id": "Lead1",
+  "$schema": "https://schema.yext.com/config/km/sample-entity/v1",
+  "entityType": "ce_leadership",
+  "content": {
+    "c_ctas": [
+      {
+        "icon": "chevron",
+        "text": "Learn More",
+        "url": "https://www.yext.com"
+      }
+    ],
+    "c_title": "CEO",
+    "yext.description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "yext.headshot": {
+      "height": 400,
+      "sourceUrl": "https://pbs.twimg.com/profile_images/378800000744255684/d9abe1934bfb15d058c567b351fafd90_400x400.png",
+      "thumbnails": [
+        {
+          "height": 150,
+          "url": "https://a.mktgcdn.com/p/EJGN-VhpuUKXxqJqU5wPFsgmWpmh7F7PRXJUBURkUuk/150x150.png",
+          "width": 150
+        },
+        {
+          "height": 94,
+          "url": "https://a.mktgcdn.com/p/EJGN-VhpuUKXxqJqU5wPFsgmWpmh7F7PRXJUBURkUuk/94x94.png",
+          "width": 94
+        }
+      ],
+      "url": "https://a.mktgcdn.com/p/EJGN-VhpuUKXxqJqU5wPFsgmWpmh7F7PRXJUBURkUuk/400x400.png",
+      "width": 400
+    },
+    "yext.name": "Howard Lerman"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$id": "job",
+  "$schema": "https://schema.yext.com/config/km/built-in-entity-type/v1",
+  "enabled": true,
+  "entry": [
+    {
+      "id": "answersKeywords",
+      "required": false
+    },
+    {
+      "id": "ctas",
+      "required": false
+    },
+    {
+      "id": "department",
+      "required": false
+    },
+    {
+      "id": "jobCity",
+      "required": false
+    },
+    {
+      "id": "jobState",
+      "required": false
+    }
+  ]
+}
